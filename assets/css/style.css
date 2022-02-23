@@ -82,6 +82,16 @@
     text-transform: capitalize;
 }
 
+.title h1::after{
+    position: absolute;
+    content: 'Explore  ➟';
+    font-size: .9rem;
+    opacity: .9;
+    bottom: 0;
+    left: 10px;
+    text-transform: capitalize;
+}
+
 @media(max-width: 760px){
     .container{
         background: url('../img/back.png') no-repeat left center;
