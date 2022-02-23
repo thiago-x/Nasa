@@ -87,9 +87,10 @@
     }
     .title h1{
         font-size: 6rem;
+        padding-top: 5px;
     }
     .title h1::before{
-        top: 50px;
+        top: 45px;
         font-size: .45rem;
     }
 }
